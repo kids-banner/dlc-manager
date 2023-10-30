@@ -1,0 +1,28 @@
+### Godot ###
+# Godot 4+ specific ignores
+.godot/
+
+# Godot-specific ignores
+.import/
+export.cfg
+export_presets.cfg
+
+# Imported translations (automatically generated from CSV files)
+*.translation
+
+### Intellij ###
+.idea/
+
+### VSCode ###
+.vscode/
+
+### macOS ###
+# General
+.DS_Store
+
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+
+# Folder config file
+[Dd]esktop.ini
