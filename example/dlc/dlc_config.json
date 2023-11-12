@@ -1,30 +1,23 @@
 {
   "configUrl": "https://mygame.com/dlc_config.json",
-  "dlc": [
-    {
-      "name": "DLC1",
-      "url": "https://mygame.com/dlc1.pck",
-      "checksum": "1234567890abcdef1234567890abcdef12345678",
-      "compatVersions": [
-        "1.0",
-        "2.0"
-      ]
-    },
-    {
-      "name": "DLC2",
-      "url": "https://mygame.com/dlc2.zip",
-      "checksum": "1234567890abcdef1234567890abcdef12345678",
-      "compatVersions": [
-        "1.0"
-      ]
-    },
-    {
-      "name": "DLC3",
-      "url": "https://mygame.com/dlc3.pck",
-      "checksum": "1234567890abcdef1234567890abcdef12345678",
-      "compatVersions": [
-        "2.0"
-      ]
-    }
-  ]
+  "dlc": {
+	"dlc1": {
+	  "url": "https://mygame.com/dlc1.pck",
+      "filename": "dlc1.pck",
+	  "checksum": "1234567890abcdef1234567890abcdef12345678",
+	  "compatVersions": ["1.0", "2.0"]
+	},
+	"dlc2": {
+	  "url": "https://mygame.com/dlc2.zip",
+      "filename": "dlc2.zip",
+	  "checksum": "1234567890abcdef1234567890abcdef12345678",
+	  "compatVersions": ["1.0"]
+	},
+	"dlc3": {
+	  "url": "https://mygame.com/dlc3.pck",
+      "filename": "dlc3.pck",
+	  "checksum": "1234567890abcdef1234567890abcdef12345678",
+	  "compatVersions": ["2.0"]
+	}
+  }
 }

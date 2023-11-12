@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="DlcConfiguration" load_steps=2 format=3 uid="uid://de3nsnh2vvuhm"]
+
+[ext_resource type="Script" path="res://addons/dlc_manager/DlcConfiguration.gd" id="1_yfrcn"]
+
+[resource]
+script = ExtResource("1_yfrcn")
+config_location = "res://example/dlc/dlc_config.json"
+config_url = "https://mygame.com/dlc_config.json"
+dlc_download_location = "user://dlc/"
